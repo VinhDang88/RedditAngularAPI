@@ -1,4 +1,12 @@
-<p> {{children.data.title}}</p>
-<a href="https://reddit.com{{children.data.permalink}}">
-    <img src="{{children.data.thumbnail}}" />
-</a>
+<DIV style="border: 3px solid; color: black; 
+     background-color: gray; ">
+    <p style="display: flex; justify-content: center; 
+    align-items: center; ">
+        <a href="https://reddit.com{{children.data.permalink}}">
+
+            <img src="{{children.data.thumbnail}}" />
+        </a>
+
+    </p>
+    <p style="display: flex; justify-content: center"> {{children.data.title}}</p>
+</DIV>
